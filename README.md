@@ -1,3 +1,3 @@
-# zimfw-aliases
+# zimfw-personalization
 
-Custom command aliases for the Zim Framework
+Custom Zsh aliases, configurations and exports for the Zim Framework
