@@ -15,4 +15,4 @@ alias kuse='kubectl config use-context'
 export PROTO_HOME="$HOME/.proto";
 
 # Ensure that local bin directories are in the path and are searched first.
-export PATH=PATH="$PROTO_HOME/shims:$PROTO_HOME/bin:$HOME/.local/bin:$HOME/bin:$PATH
+export PATH=PATH="$PROTO_HOME/shims:$PROTO_HOME/bin:$HOME/.local/bin:$HOME/bin:$PATH"
