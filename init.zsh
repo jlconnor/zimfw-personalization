@@ -1,8 +1,13 @@
 # Vim keybindings
 bindkey -v
 
+# zsh-history-substring-search keybindings
+bindkey '^[[A' history-substring-search-up # or '\eOA'
+bindkey '^[[B' history-substring-search-down # or '\eOB'
+
 # Exports
 export EDITOR=vim
+export HISTORY_SUBSTRING_SEARCH_ENSURE_UNIQUE=1
 export HOMEBREW_NO_ENV_HINTS=1
 export PAGER=""
 export PROTO_HOME="$HOME/.proto";
