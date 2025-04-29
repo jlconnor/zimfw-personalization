@@ -3,9 +3,10 @@ bindkey -v
 
 # Exports
 export EDITOR=vim
+export HOMEBREW_NO_ENV_HINTS=1
 export PAGER=""
-
 export PROTO_HOME="$HOME/.proto";
+
 export PATH=PATH="$PROTO_HOME/shims:$PROTO_HOME/bin:$HOME/.local/bin:$HOME/bin:$HOME/.ghcup/bin:$PATH"
 
 export ANTHROPIC_API_KEY=op://Personal/Anthropic/credential
