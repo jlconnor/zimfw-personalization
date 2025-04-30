@@ -8,6 +8,8 @@ bindkey '^[[B' history-substring-search-down # or '\eOB'
 # Exports
 export EDITOR=vim
 export HISTORY_SUBSTRING_SEARCH_ENSURE_UNIQUE=1
+export HISTORY_SUBSTRING_SEARCH_HIGHLIGHT_FOUND=none
+export HISTORY_SUBSTRING_SEARCH_HIGHLIGHT_NOT_FOUND=none
 export HOMEBREW_NO_ENV_HINTS=1
 export PAGER=""
 export PROTO_HOME="$HOME/.proto";
