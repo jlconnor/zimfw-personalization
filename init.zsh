@@ -15,7 +15,10 @@ export PAGER=""
 export PROTO_HOME="$HOME/.proto";
 
 # Path manipulations
-export PATH=PATH="$PROTO_HOME/shims:$PROTO_HOME/bin:$HOME/.local/bin:$HOME/bin:$HOME/.ghcup/bin:$PATH"
+if [ -d "/Applications/SnowSQL.app/Contents/MacOS" ]; then
+  PATH="/Applications/SnowSQL.app/Contents/MacOS:$PATH"
+fi
+export PATH="$PROTO_HOME/shims:$PROTO_HOME/bin:$HOME/.local/bin:$HOME/bin:$HOME/.ghcup/bin:$PATH"
 
 export ANTHROPIC_API_KEY=op://Personal/Anthropic/credential
 # export OPENAI_API_KEY=op://Personal/OpenAI/credential
