@@ -13,6 +13,7 @@ export HISTORY_SUBSTRING_SEARCH_HIGHLIGHT_NOT_FOUND=none
 export HOMEBREW_NO_ENV_HINTS=1
 export PAGER=""
 export PROTO_HOME="$HOME/.proto";
+export VIRTUAL_ENV_DISABLE_PROMPT=1
 
 # Path manipulations
 if [ -d "/Applications/SnowSQL.app/Contents/MacOS" ]; then
