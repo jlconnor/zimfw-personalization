@@ -29,7 +29,8 @@ export SNOWSQL_PWD=op://Takeup.ai/Snowflake/password
 
 # Aliases
 alias aider="op run --no-masking -- aider"
+alias glow="glow -n -w 0"
 alias hp=http-prompt
 alias k=kubectl
-alias kuse='kubectl config use-context'
+alias kuse="kubectl config use-context"
 alias snowsql="op run --no-masking -- snowsql"
