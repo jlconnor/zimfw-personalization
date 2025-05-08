@@ -23,12 +23,13 @@ fi
 export PATH="$PROTO_HOME/shims:$PROTO_HOME/bin:$HOME/.local/bin:$HOME/bin:$HOME/.ghcup/bin:$PATH"
 
 export ANTHROPIC_API_KEY=op://Personal/Anthropic/credential
-# export OPENAI_API_KEY=op://Personal/OpenAI/credential
-# export OPENROUTER_API_KEY=op://Personal/OpenRouter/credential
-# export LITELLM_MASTER_KEY=op://Personal/LiteLLM/master-key
+export SNOWSQL_ACCOUNT=op://Takeup.ai/Snowflake/accountname
+export SNOWSQL_USER=op://Takeup.ai/Snowflake/username
+export SNOWSQL_PWD=op://Takeup.ai/Snowflake/password
 
 # Aliases
 alias aider="op run --no-masking -- aider"
 alias hp=http-prompt
 alias k=kubectl
 alias kuse='kubectl config use-context'
+alias snowsql="op run --no-masking -- snowsql"
