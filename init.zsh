@@ -22,6 +22,7 @@ if [ -d "/Applications/SnowSQL.app/Contents/MacOS" ]; then
 fi
 export PATH="$PROTO_HOME/shims:$PROTO_HOME/bin:$HOME/.local/bin:$HOME/bin:$HOME/.ghcup/bin:$PATH"
 
+# Secrets in 1password
 export ANTHROPIC_API_KEY=op://Personal/Anthropic/credential
 export SNOWSQL_ACCOUNT=op://Takeup.ai/Snowflake/accountname
 export SNOWSQL_USER=op://Takeup.ai/Snowflake/username
@@ -29,6 +30,7 @@ export SNOWSQL_PWD=op://Takeup.ai/Snowflake/password
 
 # Aliases
 alias aider="op run --no-masking -- aider"
+alias claude="op run --no-masking -- claude"
 alias daws="aws --profile dev"
 alias glow="glow -n -w 0"
 alias hp=http-prompt
