@@ -30,7 +30,6 @@ export SNOWSQL_PWD=op://Takeup.ai/Snowflake/password
 
 # Aliases
 alias aider="op run --no-masking -- aider"
-alias claude="op run --no-masking -- claude"
 alias daws="aws --profile dev"
 alias glow="glow -n -w 0"
 alias hp=http-prompt
