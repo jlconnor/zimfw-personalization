@@ -38,3 +38,4 @@ alias k=kubectl
 alias kuse="kubectl config use-context"
 alias paws="aws --profile prod"
 alias snowsql="op run --no-masking -- snowsql"
+alias zed="op run --no-masking -- zed"
