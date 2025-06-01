@@ -17,9 +17,9 @@ export SNOWFLAKE_AUTHENTICATOR="externalbrowser"
 export VIRTUAL_ENV_DISABLE_PROMPT=1
 
 # Path manipulations
-if [ -d "/Applications/SnowSQL.app/Contents/MacOS" ]; then
-  PATH="/Applications/SnowSQL.app/Contents/MacOS:$PATH"
-fi
+# if [ -d "/Applications/SnowSQL.app/Contents/MacOS" ]; then
+#   PATH="/Applications/SnowSQL.app/Contents/MacOS:$PATH"
+# fi
 export PATH="$PROTO_HOME/shims:$PROTO_HOME/bin:$HOME/.local/bin:$HOME/bin:$HOME/.ghcup/bin:$PATH"
 
 # Secrets in 1password
@@ -37,6 +37,7 @@ alias glow="glow -n -w 0"
 alias hp=http-prompt
 alias k=kubectl
 alias kuse="kubectl config use-context"
+alias llm="op run --no-masking -- llm"
 alias paws="aws --profile prod"
 alias snowsql="op run --no-masking -- snowsql"
 alias zed="op run --no-masking -- zed"
